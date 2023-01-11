@@ -16,20 +16,46 @@ body {
 .second-section .title {
     font-family: Volkhov;
     font-size: 48px;
+    font-weight: bold;
     justify-content: space-between;
+    text-align: center;
+    padding-top: 70px;
 }
 .second-section .text {
 font-size: 18px;
 justify-content: space-between;
+text-align: center;
+line-height: 200%;
+padding-top: 20px;
+
+}
+
+.second-section .menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
 }
 
 .second-section .menu1 img {
-    height: 48px;
+    height: 278px;
+    background-color: white;
 }
 .second-section .menu2 img {
-    height: 48px;
+    height: 278px;
+    background-color: white;
 }
 .second-section .menu3 img {
+    height: 278px;
+    background-color: white;
+}
+.second-section .content-menu1 img {
+    height: 48px;
+  
+}
+.second-section .content-menu2 img {
+    height: 48px;
+}
+.second-section .content-menu3 img {
     height: 48px;
 }
 .second-section .title1 {
@@ -44,3 +70,6 @@ justify-content: space-between;
     font-size: 24px;
     font-weight: bold;
 }
+
+
+
