@@ -4,10 +4,43 @@ body {
     background: rgba(246, 244, 244, 0.99);
 
 }
+
+
 .second-section {
     padding-top: 30px;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background: white;
+    background:#F7F8FC;
+}
+.second-section .title {
+    font-family: Volkhov;
+    font-size: 48px;
+    justify-content: space-between;
+}
+.second-section .text {
+font-size: 18px;
+justify-content: space-between;
+}
+
+.second-section .menu1 img {
+    height: 48px;
+}
+.second-section .menu2 img {
+    height: 48px;
+}
+.second-section .menu3 img {
+    height: 48px;
+}
+.second-section .title1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.second-section .title2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.second-section .title3 {
+    font-size: 24px;
+    font-weight: bold;
 }
