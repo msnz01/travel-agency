@@ -12,6 +12,18 @@ body {
     margin-left: auto;
     margin-right: auto;
     background:#F7F8FC;
+    position: relative;
+    
+  
+}
+.second-section .planes {
+    position: relative;
+    z-index: 1;
+    margin-left: 900px;
+    margin-top: 50px;
+ 
+    
+   
 }
 .second-section .title {
     font-family: Volkhov;
@@ -19,57 +31,132 @@ body {
     font-weight: bold;
     justify-content: space-between;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 20px;
+    padding-left: 335px;
+    position: absolute;
 }
 .second-section .text {
 font-size: 18px;
 justify-content: space-between;
 text-align: center;
 line-height: 200%;
-padding-top: 20px;
+padding-top:120px;
+padding-left: 362px;
+position: absolute;
 
 }
 
 .second-section .menu {
     display: flex;
-    justify-content: space-between;
-    padding-top: 100px;
+    justify-content: left;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    gap: 100px;
+   
 }
+.second-section .menu1 {
+    position: relative;
+   
+}
+.second-section .menu2 {
+    position: relative;
+   
+    
+}
+.second-section .menu3 {
+    position: relative;
+   
+}
+
 
 .second-section .menu1 img {
     height: 278px;
     background-color: white;
+    position: absolute;
+   
+
 }
 .second-section .menu2 img {
     height: 278px;
     background-color: white;
+    position: absolute;
 }
 .second-section .menu3 img {
     height: 278px;
     background-color: white;
+    position: absolute;
 }
 .second-section .content-menu1 img {
     height: 48px;
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+   
+    
   
 }
 .second-section .content-menu2 img {
     height: 48px;
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+   
 }
 .second-section .content-menu3 img {
     height: 48px;
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+   
 }
 .second-section .title1 {
     font-size: 24px;
     font-weight: bold;
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+    padding-bottom: 25px;
+  
 }
 .second-section .title2 {
     font-size: 24px;
     font-weight: bold;
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+    padding-bottom: 25px;
 }
 .second-section .title3 {
     font-size: 24px;
     font-weight: bold;
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+    padding-bottom: 25px;
 }
 
-
-
+.second-section .text1 {
+    font-size: 16px;
+   
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+}
+.second-section .text2 {
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+}
+.second-section .text3 {
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+}
