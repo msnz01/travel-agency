@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
     background: rgba(246, 244, 244, 0.99);
@@ -8,18 +9,20 @@ body {
 
 .second-section {
     padding-top: 30px;
-    width: 1200px;
+    width: 1920px;
     margin-left: auto;
     margin-right: auto;
     background:#F7F8FC;
+    /* background-size: cover; */
     position: relative;
+   
     
   
 }
 .second-section .planes {
     position: relative;
     z-index: 1;
-    margin-left: 900px;
+    margin-left: 1400px;
     margin-top: 50px;
  
     
@@ -32,7 +35,7 @@ body {
     justify-content: space-between;
     text-align: center;
     padding-top: 20px;
-    padding-left: 335px;
+    padding-left: 700px;
     position: absolute;
 }
 .second-section .text {
@@ -41,7 +44,7 @@ justify-content: space-between;
 text-align: center;
 line-height: 200%;
 padding-top:120px;
-padding-left: 362px;
+padding-left: 700px;
 position: absolute;
 
 }
@@ -50,8 +53,9 @@ position: absolute;
     display: flex;
     justify-content: left;
     padding-top: 70px;
+    padding-left: 300px;
     padding-bottom: 120px;
-    gap: 100px;
+    gap: 200px;
    
 }
 .second-section .menu1 {

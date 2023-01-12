@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
     background: rgba(246, 244, 244, 0.99);
@@ -6,18 +7,22 @@ body {
 }
 .main-section {
     padding-top: 30px;
-    width: 1200px;
+    padding-bottom: 100px;
+    width: 1920px;
     /* width: auto; */
     margin-left: auto;
     margin-right: auto;
     background:#FEFCFB;
-   
+  
     
 }
 .header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
@@ -63,7 +68,8 @@ body {
 
     align-items: center;
     gap: 60px;
-    /*justify-content:space-between;*/
+    margin-left: 300px;
+    
 
 }
 .central-block .text-block {
@@ -117,10 +123,7 @@ body {
     border-radius: 10px;
     padding: 30px;
     margin-top: 50px;
-
-
-
-    width: 70%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     /*margin: 0 auto;*/
