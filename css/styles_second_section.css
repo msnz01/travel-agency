@@ -51,44 +51,46 @@ position: absolute;
 
 .second-section .menu {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     padding-top: 70px;
-    padding-left: 300px;
+    /* padding-left: 300px; */
     padding-bottom: 120px;
-    gap: 200px;
-   
+    /* gap: 200px; */
+    margin: 0 auto;
+   width: 80%;
 }
 .second-section .menu1 {
     position: relative;
+    background-image: url("../images/section2/sq1.svg");
    
 }
 .second-section .menu2 {
     position: relative;
-   
-    
+   background-image: url();
+
 }
 .second-section .menu3 {
     position: relative;
-   
+   background-image: url();
 }
 
 
 .second-section .menu1 img {
     height: 278px;
     background-color: white;
-    position: absolute;
+    /* position: absolute; */
    
 
 }
 .second-section .menu2 img {
     height: 278px;
     background-color: white;
-    position: absolute;
+    /* position: absolute; */
 }
 .second-section .menu3 img {
     height: 278px;
     background-color: white;
-    position: absolute;
+    /* position: absolute; */
 }
 .second-section .content-menu1 img {
     height: 48px;
