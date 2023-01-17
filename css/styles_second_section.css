@@ -1,168 +1,74 @@
 body {
-    margin: 0;
+   
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
-    background: rgba(246, 244, 244, 0.99);
-
 }
-
 
 .second-section {
-    padding-top: 30px;
-    width: 1920px;
-    margin-left: auto;
-    margin-right: auto;
-    background:#F7F8FC;
-    /* background-size: cover; */
-    position: relative;
-   
-    
-  
+    background: #F7F8FC;
+    padding: 100px 0; /*сверху снизу по 100 слева справа 0 */
 }
-.second-section .planes {
-    position: relative;
-    z-index: 1;
-    margin-left: 1400px;
-    margin-top: 50px;
- 
-    
-   
+
+.container {
+    width: 1200px;
+    margin: 0 auto; /*поставили все содержимое контейнера по центру*/
 }
-.second-section .title {
-    font-family: Volkhov;
-    font-size: 48px;
-    font-weight: bold;
-    justify-content: space-between;
-    text-align: center;
-    padding-top: 20px;
-    padding-left: 700px;
+
+.text-and-planes-block  {
+    position: relative; 
+}
+
+.text-and-planes-block img {
     position: absolute;
-}
-.second-section .text {
-font-size: 18px;
-justify-content: space-between;
-text-align: center;
-line-height: 200%;
-padding-top:120px;
-padding-left: 700px;
-position: absolute;
-
+    left: 80%
 }
 
-.second-section .menu {
+.text-and-planes-block .title {
+    text-align: center;
+    font-size: 48px;
+    font-family: Volkhov;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.text-and-planes-block .span {
+    color: red;
+}
+
+.text-and-planes-block .text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.second-section .cards {
     display: flex;
-    justify-content: space-between;
-    padding-top: 70px;
-    /* padding-left: 300px; */
-    padding-bottom: 120px;
-    /* gap: 200px; */
-    margin: 0 auto;
-   width: 80%;
-}
-.second-section .menu1 {
-    position: relative;
-    background-image: url("../images/section2/sq1.svg");
-   
-}
-.second-section .menu2 {
-    position: relative;
-   background-image: url();
-
-}
-.second-section .menu3 {
-    position: relative;
-   background-image: url();
+    gap: 50px;
+    margin-top: 100px;
 }
 
+.second-section .cards > div {              
+   border: 1px solid white;          /*обращаемся к первому диву в cards по сути к title*/
+  background-size: cover;
+   padding: 20px;
+}                                  
 
-.second-section .menu1 img {
-    height: 278px;
-    background-color: white;
-    /* position: absolute; */
-   
-
-}
-.second-section .menu2 img {
-    height: 278px;
-    background-color: white;
-    /* position: absolute; */
-}
-.second-section .menu3 img {
-    height: 278px;
-    background-color: white;
-    /* position: absolute; */
-}
-.second-section .content-menu1 img {
-    height: 48px;
-    position: relative;
-    z-index: 1;
-    margin-left: 40px;
-    margin-top: 40px;
-    padding-bottom: 40px;
-   
-    
-  
-}
-.second-section .content-menu2 img {
-    height: 48px;
-    position: relative;
-    z-index: 1;
-    margin-left: 40px;
-    margin-top: 40px;
-    padding-bottom: 40px;
-   
-}
-.second-section .content-menu3 img {
-    height: 48px;
-    position: relative;
-    z-index: 1;
-    margin-left: 40px;
-    margin-top: 40px;
-    padding-bottom: 40px;
-   
-}
-.second-section .title1 {
+.second-section .cards .title {
     font-size: 24px;
     font-weight: bold;
-    position: relative;
-    z-index: 1;
-    margin-left: 40px;
-    padding-bottom: 25px;
-  
-}
-.second-section .title2 {
-    font-size: 24px;
-    font-weight: bold;
-    position: relative;
-    z-index: 1;
-    margin-left: 40px;
-    padding-bottom: 25px;
-}
-.second-section .title3 {
-    font-size: 24px;
-    font-weight: bold;
-    position: relative;
-    z-index: 1;
-    margin-left: 40px;
-    padding-bottom: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-.second-section .text1 {
-    font-size: 16px;
+.second-section .cards > div:first-child {
+background: url("../../images/section2/sq1.svg") no-repeat, white;
+}
+
+.second-section .cards > div:nth-child(2) {
+background: url("../../images/section2/sq2.svg") no-repeat, white;
    
-    position: relative;
-    z-index: 1;
-    margin-left: 40px;
 }
-.second-section .text2 {
-    font-size: 16px;
-    position: relative;
-    z-index: 1;
-    margin-left: 40px;
+
+.second-section .cards > div:nth-child(3) {
+background: url("../../images/section2/sq3.svg") no-repeat, white;
 }
-.second-section .text3 {
-    font-size: 16px;
-    position: relative;
-    z-index: 1;
-    margin-left: 40px;
-}
+

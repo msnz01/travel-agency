@@ -53,6 +53,7 @@ body {
     border: 1px solid #efefef;
 }
 
+
 .section-2 .cards > div:first-child {
     background: url("../../images/section2/sq1.svg") no-repeat, white;
 }
