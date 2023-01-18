@@ -5,6 +5,7 @@ body {
     background: rgba(246, 244, 244, 0.99);
 
 }
+
 .main-section {
     padding-top: 30px;
     padding-bottom: 100px;
@@ -12,14 +13,15 @@ body {
     /* width: auto; */
     /* margin-left: auto; */
     /* margin-right: auto; */
-    background:#FEFCFB;
-  
-    
+    background: #FEFCFB;
+
+
 }
 
 .container {
     width: 1200px;
-    margin: 0 auto; /*поставили все содержимое контейнера по центру*/
+    margin: 0 auto;
+    /*поставили все содержимое контейнера по центру*/
 }
 
 
@@ -33,6 +35,7 @@ body {
 
 
 }
+
 .header .logo {
     display: flex;
     gap: 10px;
@@ -41,24 +44,29 @@ body {
     font-family: Volkhov;
     align-items: center;
 }
+
 .header .logo img {
     height: 20px;
 }
+
 .header .menu {
     display: flex;
     justify-content: space-between;
-   font-size: 16px;
+    font-size: 16px;
     gap: 50px;
     align-items: center;
 }
+
 .header .sign-up-block {
     display: flex;
     gap: 60px;
     align-items: center;
 }
+
 .header .sign-up-block .links {
     color: #FA7436;
 }
+
 .header .button {
     border: 1px solid #FA7436;
     border-radius: 5px;
@@ -70,20 +78,23 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .central-block {
     display: flex;
-justify-content: center;
+    justify-content: center;
     align-items: center;
     gap: 60px;
-   
-    
+
+
 
 }
+
 .central-block .text-block {
     flex: 1;
     /*flex-shrink: 0;*/
 
 }
+
 .central-block .title {
     font-family: Volkhov;
     font-size: 64px;
@@ -95,16 +106,18 @@ justify-content: center;
 
 
 }
+
 .central-block .text {
     font-size: 20px;
-    margin-bottom: 50px;tt log
-    line-height: 200%;
+    margin-bottom: 50px;
+    tt log line-height: 200%;
 
 
 }
+
 .central-block .button {
     font-size: 14px;
-    color: #FA7436 ;
+    color: #FA7436;
     border: 1px solid #FA7436;
     border-radius: 5px;
     width: 150px;
@@ -113,16 +126,19 @@ justify-content: center;
     align-items: center;
     justify-content: center;
 }
-.central-block .text-block {
-}
+
+.central-block .text-block {}
+
 .central-block .image {
     flex: 1;
     width: 100px;
 }
+
 .bottom-menu .menu-line1 {
     display: flex;
 
 }
+
 .bottom-menu {
     display: flex;
     justify-content: space-between;
@@ -135,6 +151,7 @@ justify-content: center;
     margin-right: auto;
     /*margin: 0 auto;*/
 }
+
 .bottom-menu .button {
     border: 1px solid #FA7436;
     border-radius: 5px;
@@ -145,46 +162,51 @@ justify-content: center;
     align-items: center;
     justify-content: center;
 }
- .menu1-line1 {
+
+.menu1-line1 {
     font-size: 16px;
-     font-weight: bold;
-     display: flex;
-     gap: 6px;
+    font-weight: bold;
+    display: flex;
+    gap: 6px;
 }
- .menu2-line1 {
-     font-size: 16px;
-     font-weight: bold;
-     display: flex;
-     gap: 6px;
 
- }
- .menu3-line1 {
-     display: flex;
-     font-size: 16px;
-     font-weight: bold;
-     gap: 6px;
+.menu2-line1 {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    gap: 6px;
 
- }
+}
 
- .menu1-line2 {
-     font-size: 12px;
-     margin-top: 10px;
- }
- .menu2-line2 {
-     font-size: 12px;
-     margin-top: 10px;
- }
- .menu3-line2 {
-     font-size: 12px;
-     margin-top: 10px;
- }
+.menu3-line1 {
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 6px;
 
- .bottom-menu .menu {
-     display: flex;
-     gap: 150px;
- }
+}
+
+.menu1-line2 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.menu2-line2 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.menu3-line2 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.bottom-menu .menu {
+    display: flex;
+    gap: 150px;
+}
 
 
- span {
-     color: #FA7436;
- }
+span {
+    color: #FA7436;
+}

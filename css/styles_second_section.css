@@ -1,25 +1,31 @@
 body {
-   
+
     font-family: 'Poppins', sans-serif;
 }
 
 .second-section {
     background: #F7F8FC;
-    padding: 100px 0; /*сверху снизу по 100 слева справа 0 */
+    padding: 100px 0;
+    /*сверху снизу по 100 слева справа 0 */
 }
 
 .container {
     width: 1200px;
-    margin: 0 auto; /*поставили все содержимое контейнера по центру*/
+    margin: 0 auto;
+    /*поставили все содержимое контейнера по центру*/
 }
 
-.text-and-planes-block  {
-    position: relative; 
+
+
+.text-and-planes-block {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .text-and-planes-block img {
     position: absolute;
-    left: 80%
+    right: -90px;
 }
 
 .text-and-planes-block .title {
@@ -28,7 +34,9 @@ body {
     font-family: Volkhov;
     font-weight: bold;
     margin-bottom: 40px;
+
 }
+
 .text-and-planes-block .span {
     color: red;
 }
@@ -46,11 +54,12 @@ body {
     margin-top: 100px;
 }
 
-.second-section .cards > div {              
-   border: 1px solid white;          /*обращаемся к первому диву в cards по сути к title*/
-  background-size: cover;
-   padding: 20px;
-}                                  
+.second-section .cards>div {
+    border: 1px solid white;
+    /*обращаемся к первому диву в cards по сути к title*/
+    background-size: cover;
+    padding: 20px;
+}
 
 .second-section .cards .title {
     font-size: 24px;
@@ -59,16 +68,17 @@ body {
     margin-bottom: 20px;
 }
 
-.second-section .cards > div:first-child {
-background: url("../../images/section2/sq1.svg") no-repeat, white;
+
+.second-section .cards>div:first-child {
+    background: center / contain no-repeat url("../images/section2/sq1.svg") white;
 }
 
-.second-section .cards > div:nth-child(2) {
-background: url("../../images/section2/sq2.svg") no-repeat, white;
-   
+
+.second-section .cards>div:nth-child(2) {
+    background: center / contain no-repeat url("../images/section2/sq2.svg") white;
 }
 
-.second-section .cards > div:nth-child(3) {
-background: url("../../images/section2/sq3.svg") no-repeat, white;
-}
 
+.second-section .cards>div:nth-child(3) {
+    background: center / contain no-repeat url("../images/section2/sq3.svg") white;
+}

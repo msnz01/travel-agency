@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-3 {
+    background: #FEFCFB;
+    padding: 120px 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section-3 .text-block .title {
+    font-family: Volkhov, serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-3 .text-block .title span {
+    color: #FA7436;
+}
+
+.section-3 .text-block .text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.section-3 .cards {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.section-3 .cards>div {
+    background-size: cover;
+    padding: 80px;
+    border-radius: 10px;
+    border: 1px solid #efefef;
+}
+
+.section-3 .cards>div:first-child {
+    background: top / contain no-repeat url("../images/section3/pic1.svg");
+}
+
+.section-3 .cards>div:nth-child(2) {
+    background: top / contain no-repeat url("../images/section3/pic2.svg");
+}
+
+.section-3 .cards>div:nth-child(3) {
+    background: top / contain no-repeat url("../images/section3/pic3.svg");
+}
+
+.section-3 .cards>div:nth-child(4) {
+    background: top / contain no-repeat url("../images/section3/pic4.svg");
+}
+
+.section-3 .card .line1 {
+    display: flex;
+    margin-top: 300px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-3 .card .line2 {
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-3 .card .title {
+    padding-right: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
