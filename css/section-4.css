@@ -86,26 +86,29 @@ body {
     background-color: white;
 }
 
+.section-4 .cards .image  {
+    border-radius: 20px;
+    height: 350px;
+}
 
 .section-4 .cards .card1 .image {
     background: url("../images/section3/pic1.svg") no-repeat;
-    height: 380px;
-  
+    background-size: cover;
+
   
 }
 
 .section-4 .cards .card2 .image  {
     background: url("../images/section-4/pic2.svg") no-repeat;
-    height: 380px;
+    background-size: cover;
 
 }
 
 .section-4 .cards .card3 .image  {
     background: url("../images/section-4/pic3.svg") no-repeat;
-    height: 380px;
+    background-size: cover;
 }
    
-
 .section-4 .line1 {
     display: flex;
     font-size: 24px;
