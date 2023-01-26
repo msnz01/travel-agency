@@ -35,54 +35,52 @@ body {
     display: flex;
     margin-top: 80px;
     justify-content: space-between;
+    gap: 10px;
 }
 
-.section-3 .cards>div:first-child {
-    background: url("../images/section3/pic1.svg") no-repeat;
-    background-size: 280px;
-    width: 240px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #efefef;
+.section-3 .cards > div {
+    border: 2px solid #efefef;
+    border-radius: 20px;
+    flex: 1;
+    background: white;
 }
 
-.section-3 .cards>div:nth-child(2) {
-    background: url("../images/section3/pic2.svg") no-repeat;
-    background-size: 280px;
-    width: 240px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #efefef;
+.section-3 .cards .image {
+    border-radius: 20px;
+    height: 300px;
 }
 
-.section-3 .cards>div:nth-child(3) {
-    background: url("../images/section3/pic3.svg") no-repeat;
-    background-size: 280px;
-    width: 240px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #efefef;
-
-
+.section-3 .cards .card1 .image {
+    background: url("../images/section3/pic1.svg");
+    background-size: cover;
 }
 
-.section-3 .cards>div:nth-child(4) {
-    background: url("../images/section3/pic4.svg") no-repeat;
-    background-size: 280px;
-    width: 240px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #efefef;
-
-
+.section-3 .cards .card2 .image {
+    background: url("../images/section3/pic2.svg");
+    background-size: cover;
 }
 
-.section-3 .card .line1 {
+.section-3 .cards .card3 .image {
+    background: url("../images/section3/pic3.svg");
+    background-size: cover;
+}
+
+.section-3 .cards .card4 .image {
+    background: url("../images/section3/pic4.svg");
+    background-size: cover;
+}
+
+ection-3 .line1 {
     display: flex;
-    margin-top: 310px;
-    padding-bottom: 30px;
+
+    padding: 20px 20px 0 20px;
     align-items: center;
     justify-content: space-between;
+}
+
+.section-3 .line1 .title {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .section-3 .star-block {
@@ -90,10 +88,9 @@ body {
     gap: 10px;
 }
 
-.section-3 .card .line2 {
+.section-3 .line2 {
     display: flex;
-padding-bottom: 20px;
-
+    padding: 20px;
     justify-content: space-between;
 
 }
@@ -107,6 +104,9 @@ padding-bottom: 20px;
     display: flex;
     gap: 10px;
     text-align: center;
+}
+.section-3 .price-block .price {
+    text-decoration: line-through;
 }
 
 .section-3 .price-block .price-new {
