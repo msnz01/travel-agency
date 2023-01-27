@@ -1,0 +1,132 @@
+body {
+    font-family: 'Poppins', sans-serif
+}
+
+.section-5 {
+    background: #F7F8FC;
+    padding: 50px 0;
+
+}
+
+.container {
+width: 1200px;
+margin: 0 auto;
+
+
+}
+
+.section-5  .main-block {
+    display: flex;
+    position: relative;
+
+}
+
+.section-5 .text-block .title {
+font-family: 'Volkhov';
+font-size: 48px;
+font-weight: bold;
+line-height: 110%;
+padding-top: 70px;
+
+}
+
+.section-5 .text-block .text {
+    font-size: 16px;
+    padding-top: 40px;
+  
+}
+
+
+
+
+.section-5 .up-card .image {
+    width: 500px;
+    height: 250px;
+    border: solid 2px#FA7436;
+    border-radius: 20px;
+    position: absolute;
+  
+   
+   
+   
+
+}
+
+.section-5 .up-card .text-block {
+    padding: 40px;
+    font-size: 16px;
+    line-height: 200%;
+    
+}
+
+.section-5 .up-card .signature-block {
+    padding-left: 40px;
+    
+}
+
+.section-5 .up-card {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-left: 575px;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+.section-5  .planes {
+    position: absolute;
+    padding-left: 90%;
+    
+ 
+}
+
+.section-5 .face-pic-block img {
+height: 100px;
+}
+
+.section-5 .face-pic-block {
+    position: absolute;
+    padding-top: 56px;
+    padding-left: 520px;
+    z-index: 1;
+}
+
+
+
+
+.section-5 .buttons-block {
+    
+    position: absolute;
+    padding-top: 300px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.section-5 .buttons-block .left-button {
+    border: solid 2px #d1c7c7;
+   background: white;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+}
+
+.section-5 .buttons-block .right-button {
+    border: 2px solid #FA7436;
+    background: #FA7436;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
