@@ -4,29 +4,42 @@ body {
 
 .section-5 {
     background: #F7F8FC;
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 200px;
 
 }
 
 .container {
-width: 1200px;
-margin: 0 auto;
-
-
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .section-5  .main-block {
     display: flex;
-    position: relative;
+    gap: 60px;
 
 }
 
+.section-5 .right-block {
+    display: flex;
+    padding-top: 50px;
+    /* position: relative; */ <!-- ничего не меняется --!>
+   
+}
+
+.section-5 .face-pic-block .face-pic{
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 35px;
+    z-index: 3;
+}
+
 .section-5 .text-block .title {
-font-family: 'Volkhov';
-font-size: 48px;
-font-weight: bold;
-line-height: 110%;
-padding-top: 70px;
+    font-family: 'Volkhov';
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 110%;
+    padding-top: 70px;
 
 }
 
@@ -37,77 +50,69 @@ padding-top: 70px;
 }
 
 
-
-
-.section-5 .up-card .image {
-    width: 500px;
-    height: 250px;
-    border: solid 2px#FA7436;
-    border-radius: 20px;
-    position: absolute;
-  
+.section-5 .up-card {
+    border: solid 2px white;
+    border-radius: 10px;
+    margin-top: 53px;
+    margin-left: 85px;
+    z-index: 2;
+    background-color: white;
    
-   
-   
+ }
 
-}
-
-.section-5 .up-card .text-block {
-    padding: 40px;
+ .section-5 .up-card .text-block {
+    padding: 40px 95px 30px 70px;
     font-size: 16px;
     line-height: 200%;
-    
+
 }
+
 
 .section-5 .up-card .signature-block {
-    padding-left: 40px;
+    padding-left: 70px;
+    padding-bottom: 40px;
     
 }
 
-.section-5 .up-card {
-    align-items: center;
-    justify-content: center;
+
+
+.section-5 .down-card {
+    border: solid 2px #e8e8ef;
+    border-radius: 10px;
+    margin-top: 179px;
+    margin-left: 217px;
     position: absolute;
-    padding-left: 575px;
-    padding-top: 100px;
+    z-index: 1;
+    background-color: #F7F8FC;
+    box-shadow: 36px 32px 45px -35px rgb(201, 193, 193) ;
 }
 
 
-
-
+.section-5 .down-card .signature-block {
+    padding: 155px 300px 40px 50px;
+}
 
 
 
 
 .section-5  .planes {
     position: absolute;
-    padding-left: 90%;
-    
- 
+    padding-left: 650px;
+  
 }
+
 
 .section-5 .face-pic-block img {
 height: 100px;
 }
 
-.section-5 .face-pic-block {
-    position: absolute;
-    padding-top: 56px;
-    padding-left: 520px;
-    z-index: 1;
-}
-
-
-
 
 .section-5 .buttons-block {
-    
-    position: absolute;
-    padding-top: 300px;
-    padding-bottom: 50px;
+    padding-top: 20px;
     display: flex;
     gap: 40px;
 }
+
 
 .section-5 .buttons-block .left-button {
     border: solid 2px #d1c7c7;
@@ -119,6 +124,7 @@ height: 100px;
    width: 40px;
    height: 40px;
 }
+
 
 .section-5 .buttons-block .right-button {
     border: 2px solid #FA7436;
