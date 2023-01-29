@@ -1,0 +1,101 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-6 {
+    background: #FEFCFB;
+    padding: 120PX 0;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.section-6 .title {
+    font-family: 'Volkhov';
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+
+.section-6 .cards  {
+    display: flex;
+    justify-content:  cetner;
+    gap: 25px;
+
+}
+
+
+.section-6 .cards > div {
+    border: solid 2px #FEFCFB ;
+    flex: 1;
+ 
+}
+
+
+.section-6 .cards .image {
+    height: 270px;
+    border-radius: 20px;
+}
+
+
+.section-6 .cards .text {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 40px 20px 20px 0;
+}
+
+
+.section-6 .cards .date {
+    font-size: 16px;
+    color: #999999;
+}
+
+
+.section-6 .cards .card1 {
+    background: url("../images/section-6/pic1.svg") no-repeat;
+    background-size: contain;
+}
+
+
+.section-6 .cards .card2 {
+    background: url("../images/section-6/pic2.svg") no-repeat;
+    background-size: contain;
+}
+
+
+.section-6 .cards .card3 {
+    background: url("../images/section-6/pic3.svg") no-repeat;
+    background-size: contain;
+}
+
+
+.section-6 .cards .card4 {
+    background: url("../images/section-6/pic4.svg") no-repeat;
+    background-size: contain;
+}
+
+
+.section-6 .ellipses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+   
+}
+
+
+.section-6 .ellipses .ellips-left {
+    padding-bottom: 3px;
+}
+
+.section-6 .ellipses .ellips-right {
+    padding-bottom: 3px;
+}
+
