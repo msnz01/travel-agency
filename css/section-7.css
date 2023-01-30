@@ -1,0 +1,232 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-7 {
+    background: #F7F8FC;
+    
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section-7 .main-block {
+    width: 1200px;
+    height: 416px;
+    border: solid 2px #FA7436;
+    border-radius: 20px;
+    background: #FA7436;
+    display: flex;
+    position: relative;
+ 
+    
+    
+}
+
+.section-7 .main-block .title {
+    font-family: 'Volkhov';
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center ;
+    color: #FFFFFF;
+    padding-top: 76px;
+    padding-left: 306px; 
+    position: absolute;
+   
+    
+}
+
+.section-7 .main-block .ellipses {
+    position: absolute;
+    padding-top: 142px;
+    
+}
+
+.section-7 .main-block .palms {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 1090px;
+    
+}
+
+.section-7 .main-block .mail-form {
+    display: flex;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background: #FFFFFF;
+    height: 68px;
+    width: 674px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 7px;
+    margin-top: 258px;
+    margin-left: 300px;
+    z-index: 1;
+
+}
+
+.section-7 .main-block .mail-form .button {
+    border: 2px solid #FA7436;
+    background: #FA7436;
+    border-radius: 10px;
+    height: 50px;
+    width: 132px;
+    color: #FFFFFF;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+.section-7 .main-block .mail-form .text {
+    padding-right: 381px;
+    padding-bottom: 5px;
+    color: #999999;
+}
+
+.section-7 .footer .cards {
+    display: flex;
+    padding-top: 80px;
+    
+}
+
+.section-7 .footer .card1 {
+    padding-right: 310px;
+}
+
+
+.section-7 .footer .card2 {
+    padding-right: 135px;
+}
+
+
+.section-7 .footer .card3 {
+    padding-right: 147px;
+}
+
+.section-7 .footer .card1 .title {
+    display: flex;
+    align-items: center;
+}
+
+.section-7 .footer .card1 .title .name {
+    font-family: 'Volkhov';
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 8px;
+    padding-bottom: 8px;
+ 
+}
+
+.section-7 .footer .card1 .text {
+    font-size: 16px;
+    color: #666666;
+    padding-top: 15px;
+    line-height: 200%;
+}
+
+.section-7 .footer .card1 .buttons {
+    display: flex;
+    gap: 35px;
+    padding-top: 25px;
+}
+
+
+.section-7 .footer .card1 .left-button {
+    height: 35px;
+    width: 35px;
+    border: solid 2px #FFFFFF;
+    border-radius: 50%;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section-7 .footer .card1 .button {
+    height: 35px;
+    width: 35px;
+    border: solid 2px #FA7436;
+    border-radius: 50%;
+    background: #FA7436;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section-7 .footer .card1 .right-button {
+    height: 35px;
+    width: 35px;
+    border: solid 2px #FFFFFF;
+    border-radius: 50%;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section-7 .footer .card2 .title {
+
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 23px;
+}
+
+.section-7 .footer .card3 .title {
+
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 23px;
+}
+
+.section-7 .footer .card4 .title {
+
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 23px;
+}
+
+.section-7 .footer .card2 .text {
+    font-size: 18px;
+    color: #999999;
+    line-height: 270%;
+}
+
+.section-7 .footer .card3 .text {
+    font-size: 18px;
+    color: #999999;
+    line-height: 300%;
+}
+
+.section-7 .footer .card4 .text {
+    font-size: 18px;
+    color: #999999;
+    line-height: 300%;
+}
+
+
+
+
+
+
+
+
+.section-7 .footer .line {
+    border-bottom: solid 1px #999999;
+    padding-top: 30px;
+}
+
+
+.section-7 .footer .bottom-text {
+    display: flex;
+    font-size: 16px;
+    color: #666666;
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}

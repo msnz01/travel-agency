@@ -57,27 +57,27 @@ body {
 }
 
 
-.section-6 .cards .card1 {
+.section-6 .cards .card1 .image {
     background: url("../images/section-6/pic1.svg") no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 
-.section-6 .cards .card2 {
+.section-6 .cards .card2 .image{
     background: url("../images/section-6/pic2.svg") no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 
-.section-6 .cards .card3 {
+.section-6 .cards .card3 .image {
     background: url("../images/section-6/pic3.svg") no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 
-.section-6 .cards .card4 {
+.section-6 .cards .card4 .image{
     background: url("../images/section-6/pic4.svg") no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 
