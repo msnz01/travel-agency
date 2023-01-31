@@ -19,7 +19,6 @@ body {
     border: solid 2px #FA7436;
     border-radius: 20px;
     background: #FA7436;
-    display: flex;
     position: relative;
  
     
@@ -33,22 +32,19 @@ body {
     text-align: center ;
     color: #FFFFFF;
     padding-top: 76px;
-    padding-left: 306px; 
-    position: absolute;
-   
-    
+     
 }
 
 .section-7 .main-block .ellipses {
     position: absolute;
-    padding-top: 142px;
+    bottom: -7px;
     
 }
 
 .section-7 .main-block .palms {
     position: absolute;
-    padding-top: 10px;
-    padding-left: 1090px;
+    top: 0;
+    right: 0;
     
 }
 
@@ -63,10 +59,8 @@ body {
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 7px;
-    margin-top: 258px;
-    margin-left: 300px;
     z-index: 1;
-
+    margin: 20px auto;
 }
 
 .section-7 .main-block .mail-form .button {
@@ -79,15 +73,18 @@ body {
     font-size: 16px;
     justify-content: center;
     align-items: center;
-    display: flex;
-   
+ 
 }
 
 .section-7 .main-block .mail-form .text {
     padding-right: 381px;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
     color: #999999;
+    align-items: center;
+    display: flex;
 }
+
+
 
 .section-7 .footer .cards {
     display: flex;
@@ -208,12 +205,6 @@ body {
     color: #999999;
     line-height: 300%;
 }
-
-
-
-
-
-
 
 
 .section-7 .footer .line {
